@@ -14,6 +14,9 @@ Getting started is easy.
     -    cd my-new-wordpress-site
     -    git submodule init
     -    git submodule update
+    -    At this point, if you don't want WordPress trunk, you can checkout another branch from the submodule.
+        - cd wordpress
+        - git checkout 3.4-branch
 4.    Configure your HTTP server to point to your _my-new-wordpress-site_ directory
 5.    Add a new database to MySQL and setup user permissions
 6.    Configure and move required files to their proper names
